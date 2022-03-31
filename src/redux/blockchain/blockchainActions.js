@@ -187,7 +187,7 @@ export const startUp = () => {
     const safuu = ethers.utils.formatUnits(reserve0, 5);
     const bnb = ethers.utils.formatEther(reserve1);
     const price = Number(BNBprice.data.price) * Number(bnb) / Number(safuu);
-    // console.log("price = ", Number(BNBprice.data.price), price);
+    console.log("price = ", Number(BNBprice.data.price), price);
 
     // console.log("price", price.data.price);
     // const pair = await getJSONP("")
